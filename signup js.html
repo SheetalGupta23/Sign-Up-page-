@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>sign up using condition</title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+	<form>
+	<div id="box">
+		<div id="sbox">
+			<h1>Sign Up</h1>
+			<h5>It's easy and quick</h5>
+			<hr class="line">
+			
+				<input type="text" name="text" id="fill_name" placeholder="NAME">
+				<img src="alert.png" id="n_alert" class="animate__animated animate__tada animate__faster">
+				<img src="name.png" id="pngname" class="animate__animated animate__backInLeft animate__faster">
+
+				<input type="text" name="text" id="fill_surname" placeholder="SURNAME">
+				<img src="alert.png" id="s_alert" class="animate__animated animate__tada animate__faster">
+				<img src="surname.png" id="pngsurname" class="animate__animated animate__backInRight animate__faster">
+
+				<input type="number" name="number" id="fill_number" placeholder="MOBILE NUMBER">
+				<img src="alert.png" id="no_alert" class="animate__animated animate__tada animate__faster">
+				<img src="number.png" id="pngnumber" class="animate__animated animate__backInRight animate__faster">
+
+				<input type="password" name="password" id="fill_pass" placeholder="ENTER PASSWORD">
+				<img src="alert.png" id="pass_alert" class="animate__animated animate__tada animate__faster">
+				<img src="password.png" id="pngpass" class="animate__animated animate__backInLeft animate__faster">
+
+				<input type="checkbox" name="" id="chk" disabled="disabled">
+
+				<div id="passbox">
+					<h5 id="use">Use recommended password</h5>
+					<hr>
+					<p id="rec_pass">Pass@#552word</p>
+				</div>
+
+				<h4 id="dob">DATE OF BIRTH</h4>
+				<input type="date" name="date" placeholder="D.O.B" id="fill_dob">
+
+				<h4 id="gender">GENDER</h4>
+				<div id="mbox">
+					<h2 id="male">MALE</h2>
+					<input type="radio" name="gender" id="mput">
+				</div>
+
+				<div id="fbox">
+					<h2 id="female">FEMALE</h2>
+					<input type="radio" name="gender" id="fput">
+				</div>
+
+				<div id="cbox">
+					<h2 id="custom">CUSTOM</h2>
+					<input type="radio" name="gender" id="cput">
+				</div>
+
+				<h6 id="txt">people who use our services may have uploaded your contact information to Facebook.Learn More.</h6>
+
+				<h6 id="txt1">By clicking Sign Up you agree to our Terms,Privacy Policy and Cookies Policy.You may recieve SMS notification and opt at any time.</h6>
+
+				<div id="loginbox">
+					<p id="txtt">Login Successful</p>
+					
+				</div>
+			</div>
+		</div>
+	</form>
+	<button id="btn">Sign Up</button>
+	<input type="submit" name="submit" id="ok">
+
+	<script src="script.js"></script>
+</body>
+</html>

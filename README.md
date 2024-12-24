@@ -12,6 +12,7 @@ A simple signup page built with HTML, CSS, and JavaScript. This page allows user
 - *HTML*: To structure the signup form and input fields.
 - *CSS*: To style the page and create a clean, user-friendly layout.
 - *JavaScript*: To add form validation and provide feedback to users during signup.
+- *Animation*:To make it more attractive.
 
 ## How to Run the Project
 1. Clone this repository:
